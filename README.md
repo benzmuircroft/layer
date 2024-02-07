@@ -18,3 +18,5 @@ const autojar = {
 ```
 
 it should be able to use tinybee fore each store!
+
+the db needs to be swappable like this!
