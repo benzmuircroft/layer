@@ -9,12 +9,11 @@ const layer = {
   hyperswarm, // replication and rpc
   servers: {}, // serverPublicKey \/ each join each other
   clients: {}, // clientPublicKey /\
-  status: {} // if a store should be replaced
+  status: {} // if a store should be replaced (an autobase of all the users who have ever had roles)
   stores: {
     a: store,
     b: store
   },
-  methods: {}, // things they can do together
-  shared: {} // maybe an autobase
+  methods: {} // things they can do together
 };
 ```
