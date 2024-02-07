@@ -8,7 +8,7 @@ const autojar = {
   servers: {}, // serverPublicKey \/ each join each other
   clients: {}, // clientPublicKey /\
   status: {}, // if a store should be replaced (an autobase of all the users who have ever had roles)
-  concensus: {}, // joint oppinion of status (offline users dont count)
+  concensus: {}, // joint oppinion of status (offline users dont count) another autobase
   stores: {
     a: store,
     b: store
@@ -16,3 +16,5 @@ const autojar = {
   methods: {} // things they can do together
 };
 ```
+
+it should be able to use tinybee fore each store!
