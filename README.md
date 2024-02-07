@@ -5,7 +5,7 @@ a shared object that each user has a part in but can be replaced by others by tr
 
 ```js
 
-const layer = {
+const autojar = {
   hyperswarm, // replication and rpc
   servers: {}, // serverPublicKey \/ each join each other
   clients: {}, // clientPublicKey /\
