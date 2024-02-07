@@ -8,7 +8,7 @@ const autojar = {
   servers: {}, // serverPublicKey \/ each join each other
   clients: {}, // clientPublicKey /\
   status: {}, // if a store should be replaced (an autobase of all the users who have ever had roles)
-  concensus: {} // joint oppinion of status (offline users dont count)
+  concensus: {}, // joint oppinion of status (offline users dont count)
   stores: {
     a: store,
     b: store
