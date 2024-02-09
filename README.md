@@ -1,4 +1,4 @@
-# 🕳🥊 Autojar 🫙
+# 🕳🥊 replug 🔌
 A shared object that each user has a part in but can be replaced by others by transferring the role to the first in-line user
 
 ```js
