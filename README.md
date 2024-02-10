@@ -20,3 +20,14 @@ const autojar = {
 it should be able to use tinybee fore each store!
 
 the db needs to be swappable like this!
+
+
+how about:
+```js
+const root = 'a core ith a list'
+const services = await require(replug)({ root, rootList: 'cars' });
+// inside of replug it watches the roots list of public keys to see updates on services added and swapped writers or destroyed
+// and each service is replcated as it's own core and purged if destroyed or swapped
+// all of these services are deleted on startup unless you are the service owner
+// as the service owner you can be knocked out on replacement  
+```
