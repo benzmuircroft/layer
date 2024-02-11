@@ -3,7 +3,7 @@ process.traceProcessWarnings = true;
 process.on('error', function(e) { console.trace(e); });
 
 const Corestore = require('corestore');
-const Tinybee = require('tinybee'); // don't use tinybee, instead take the things you need out and impliment queues here acac
+const Tinybee = require('tinybee'); // don't use tinybee, instead take the things you need out and impliment queues here
 const Hyperswarm = require('hyperswarm');
 const b4a = require('b4a');
 const goodbye = require('graceful-goodbye');
