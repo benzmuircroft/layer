@@ -1,7 +1,3 @@
-process.traceProcessWarnings = true;
-
-process.on('error', function(e) { console.trace(e); });
-
 const pngDrive = async (_options) => {
   const options = { ..._options };
   return new Promise((resolve) => {
