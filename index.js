@@ -16,7 +16,7 @@ const pngDrive = async (_options) => {
       if (options.primaryKeyHex) drive = new Hyperdrive(pngStore);
       else drive = new Hyperdrive(pngStore, b4a.from(options.keyHex, 'hex'));
       await drive.ready();
-      if (options.dontSwarmHere) { // todo: test with userbase
+      if (options.anotherSwarm) { // todo: test with userbase
         if (options.primaryKeyHex) {
           const anotherTopic = b4a.alloc(32).fill(options.anotherSwarmTopicOrKey); // note: this works with string but not publicKey!
           const discovery = await options.anotherSwarm.join(anotherTopic, { server: true, client: true });
