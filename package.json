@@ -1,0 +1,28 @@
+{
+  "name": "pngDrive",
+  "version": "0.0.1",
+  "description": "pngDrive for userbase",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/benzmuircroft/pngDrive"
+  },
+  "dependencies": {
+    "hyperdrive": "^2.18.1",
+    "corestore": "^6.15.13",
+    "hyperswarm": "^4.7.13",
+    "b4a": "^1.6.0",
+    "graceful-goodbye": "^1.2.1"
+  },
+  "keywords": [
+    "local-first",
+    "offline-first",
+    "distributed",
+    "p2p",
+    "hypercore",
+    "corestore",
+    "hyperswarm"
+  ],
+  "author": "Benz Muircroft",
+  "license": "MIT"
+}
