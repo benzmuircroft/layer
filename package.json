@@ -8,7 +8,7 @@
     "url": "https://github.com/benzmuircroft/pngDrive"
   },
   "dependencies": {
-    "hyperdrive": "^2.18.1",
+    "hyperdrive": "^11.6.3",
     "corestore": "^6.15.13",
     "hyperswarm": "^4.7.13",
     "b4a": "^1.6.0",
