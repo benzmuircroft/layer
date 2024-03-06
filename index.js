@@ -58,6 +58,7 @@ const pngDrive = async (_options) => {
           },
           get: async function(name) {
             const buffer = await drive.get(name);
+            if (!buffer) return null;
             return `data:image/png;base64,${buffer.toString('base64')}`;
           }
         });
@@ -66,6 +67,7 @@ const pngDrive = async (_options) => {
         resolve({
           get: async function(name) {
             const buffer = await drive.get(name);
+            if (!buffer) return null;
             return `data:image/png;base64,${buffer.toString('base64')}`;
           }
         });
